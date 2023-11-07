@@ -1,31 +1,28 @@
 import React from 'react'
 import './Login.css'
-import TextField from '@mui/material/TextField';
+
 const Login = () => {
   return (
+    <>
     <div className='loginacc'>
     <h1>Signin to your PopX account</h1>
     <p>Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit,</p>
-      <div className='emailadd'>
-        <TextField
-          className='email'
-          required
-          id="outlined-required"
-          label="Email Address"
-          placeholder="Enter Email Address"
-        />
-        </div>
-        <div className='password'>
-         <TextField 
-         required
-          className='pass'
-          id="outlined-required"
-          label="Password"
-          placeholder='Enter Password'
-        />
+    <div className="container">
+      <div className="entryarea">
+      <input type="email" required placeholder='Enter Email Address'/>
+        <div className="labelline">Email Address<span className='star'>*</span></div>
+     </div>
+     <div className="entryarea">
+        <input type="password" required placeholder='Enter Password'/>
+        <div className="labelline">Password<span className='star'>*</span></div>
+     </div>
     </div>
-    <button className='loginbutton'>Login</button>
+    
+    <div>
+    <button className='loginbutton' type='submit'>Login</button>
     </div>
+    </div>
+    </>
   )
 }
 

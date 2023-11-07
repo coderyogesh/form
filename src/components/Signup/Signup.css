@@ -11,10 +11,7 @@ h1 {
 
 .container {
     width: 15rem;
-
 }
-
-
 
 .radiocontainer {
     position: absolute;
@@ -30,9 +27,11 @@ h1 {
 
     font-size: 14px;
     padding: 10px 30px;
-
 }
 
+.star {
+    color: #DD4A3D;
+}
 
 .entryarea {
     position: relative;
@@ -52,7 +51,7 @@ input {
 
     height: 50%;
     border-radius: 10px;
-    border: 2px solid #CBCBCB;
+    border: 1px solid #CBCBCB;
     background: transparent;
 }
 
@@ -72,7 +71,7 @@ input {
 
     font: normal normal medium 16px/17px 'Rubik';
     background: #6C25FF 0% 0% no-repeat padding-box;
-    margin-top: 50px;
+    margin-top: 80px;
     padding: 10px 10px;
     margin-left: 10px;
     border-radius: 6px;
@@ -81,4 +80,24 @@ input {
     opacity: 1;
     cursor: pointer;
     border: none;
+}
+
+.wrap-radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-class input[type="radio"] {
+    width: 20px;
+    margin-top: -10px;
+    accent-color: #6C25FF;
+}
+
+.wrapper-class label {
+    display: inline;
+}
+
+.sign h1 {
+    line-height: 1.5;
 }
