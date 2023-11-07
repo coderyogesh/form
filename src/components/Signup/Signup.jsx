@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const Signup = () => {
   const navigate = useNavigate();
   const [user,setUser] = useState({
-    name :"",phone:"",mail:"",password:"",cname:""
+    name:"",phone:"",mail:"",password:"",cname:""
   })
   
   let name,value;
@@ -101,10 +101,9 @@ const Signup = () => {
         </div>
         </div>
     </div>
-    
-
-<div>
-   <button className='signbutton' type='submit' onClick={()=>navigate('/about')}>Create Account </button>
+  
+    <div>
+   <button className='signbutton' type='submit' onClick={() =>navigate('/about', { state: { user } })}>Create Account </button>
    </div>
    </>
   )
