@@ -1,0 +1,49 @@
+.loginacc {
+    padding: 20px;
+    background-color: white;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    text-align: left;
+    font: normal normal medium 28px/36px Rubik;
+    letter-spacing: 0px;
+}
+
+p {
+    font: normal normal normal 18px/26px Rubik;
+    letter-spacing: 0px;
+}
+
+.emailadd {
+    margin-top: 10px;
+}
+
+.password {
+    margin-top: 10px;
+}
+
+.email {
+    width: 45vh;
+}
+
+.pass {
+    width: 45vh;
+}
+
+.loginbutton {
+    background: #CBCBCB 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    text-align: center;
+    font: normal normal medium 'Rubik';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 45vh;
+    height: 7vh;
+    margin-top: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+    border: none;
+}
